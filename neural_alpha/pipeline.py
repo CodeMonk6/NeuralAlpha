@@ -68,7 +68,7 @@ class NeuralAlphaPipeline(nn.Module):
             market_dim=latent_dim,
             causal_dim=causal_dim,
             d_model=d_model,
-            seq_len=seq_len,
+            max_seq_len=seq_len,
         )
         self.synthesizer = SignalSynthesizer(d_model=d_model)
 
@@ -199,6 +199,8 @@ class NeuralAlphaPipeline(nn.Module):
         config = {
             "n_features": self.encoder.n_features,
             "latent_dim": self.encoder.latent_dim,
+            "causal_nodes": self.causal_embedder.n_nodes,
+            "causal_dim": self.causal_embedder.embed_dim,
             "d_model": self.transformer.d_model,
             "seq_len": self.seq_len,
         }
