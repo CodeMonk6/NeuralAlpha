@@ -1,5 +1,7 @@
-# Neural Alpha
+# Package Initialization
 
-This module exports the main pipeline functions for the Neural Alpha project.
+"""
+Neural Alpha package initialization.
+"""
 
-__all__ = ['function1', 'function2', 'function3']  # Replace with actual function names
+__all__ = ['module1', 'module2', 'module3']  # Update with the actual module names
