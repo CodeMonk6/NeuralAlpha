@@ -1,0 +1,36 @@
+# ============================================================
+# NeuralAlpha — Causal Discovery Configuration
+# ============================================================
+
+causal_engine:
+  d: 12                  # Number of factor nodes
+  lambda1: 0.01          # L1 sparsity penalty
+  lambda2: 1.0           # Acyclicity penalty coefficient
+  threshold: 0.3         # Edge weight threshold
+  max_iter: 500          # Optimization iterations per outer loop
+  lr: 0.01
+
+# Factor nodes included in the causal graph
+factor_nodes:
+  - "earnings_revision_30d"
+  - "analyst_sentiment"
+  - "sector_relative_strength"
+  - "market_beta_63d"
+  - "rate_spread_10y2y"
+  - "vix_level"
+  - "credit_spread_hy"
+  - "fed_funds_surprise"
+  - "momentum_factor"
+  - "size_factor"
+  - "value_factor"
+  - "quality_factor"
+
+graph_embedder:
+  n_nodes: 12
+  node_feat_dim: 16
+  embed_dim: 64
+  n_layers: 2
+  n_heads: 4
+  dropout: 0.1
+
+output_dir: "checkpoints/causal/"

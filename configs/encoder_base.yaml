@@ -1,0 +1,23 @@
+# ============================================================
+# NeuralAlpha — Market Encoder Configuration
+# ============================================================
+
+model:
+  n_features: 32
+  latent_dim: 256
+  hidden_dim: 64
+  tcn_depth: 4
+  n_resolutions: 3
+  dropout: 0.1
+
+training:
+  epochs: 30
+  batch_size: 128
+  lr: 3.0e-4
+  weight_decay: 1.0e-5
+
+  # Encoder pre-training objective: predict 5-day forward return
+  pretraining_objective: "forward_return_mse"
+  forward_horizon: 5
+
+output_dir: "checkpoints/encoder/"

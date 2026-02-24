@@ -1,0 +1,39 @@
+# ============================================================
+# NeuralAlpha — Full Pipeline Configuration
+# ============================================================
+
+model:
+  n_features: 32
+  latent_dim: 256
+  causal_nodes: 12
+  causal_dim: 64
+  d_model: 256
+  seq_len: 60
+
+data:
+  universe: sp500
+  start: "2010-01-01"
+  end: "2023-12-31"
+  val_start: "2021-01-01"
+  test_start: "2022-01-01"
+  processed_dir: "data/processed/"
+  raw_dir: "data/raw/"
+  forward_return_horizon: 5  # trading days
+
+training:
+  epochs: 50
+  batch_size: 64
+  lr: 1.0e-4
+  weight_decay: 1.0e-5
+  grad_clip: 1.0
+  lambda_direction: 1.0
+  lambda_ranking: 0.5
+  lambda_confidence: 0.3
+  early_stopping_patience: 10
+
+output_dir: "checkpoints/full/"
+log_dir: "logs/"
+
+mlflow:
+  tracking_uri: "mlruns/"
+  experiment_name: "neuralalpha_full"

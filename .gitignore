@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# PyTorch checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Data (too large for repo)
+data/raw/
+data/processed/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# MLflow
+mlruns/
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Results
+results/
+
+# Secrets / API keys
+.env
+*.env
+secrets.yaml
