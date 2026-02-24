@@ -1,4 +1,6 @@
 # Package Initialization
 
+from neural_alpha.pipeline import NeuralAlphaPipeline
+
 # Main Exports
-__all__ = ['NeuralNetwork', 'Optimizer', 'LossFunction']
+__all__ = ['NeuralAlphaPipeline', 'NeuralNetwork', 'Optimizer', 'LossFunction']

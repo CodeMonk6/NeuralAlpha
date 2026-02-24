@@ -14,7 +14,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from typing import Optional
-import math
 
 
 class GraphAttentionLayer(nn.Module):
@@ -78,9 +77,6 @@ class GraphAttentionLayer(nn.Module):
 
         # Attention logits: e_ij = a^T [Wh_i || Wh_j]
         # Wh_i repeated for all j; Wh_j repeated for all i
-        Wh_i = Wh.unsqueeze(3).expand(-1, -1, -1, N, -1)  # (H, N, 1, N, F) → broadcast
-        Wh_j = Wh.unsqueeze(2).expand(-1, -1, N, -1, -1)  # (H, 1, N, N, F)
-
         # Simpler approach: pair-wise attention
         Wh_i = Wh.unsqueeze(3).repeat(1, 1, 1, N, 1).view(self.n_heads, N * N, self.out_features)
         Wh_j = Wh.unsqueeze(2).repeat(1, 1, N, 1, 1).view(self.n_heads, N * N, self.out_features)
