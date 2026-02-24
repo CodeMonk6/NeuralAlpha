@@ -1,3 +1,5 @@
-# Main package for Neural Alpha
+# Neural Alpha
 
-# Here we can import our modules
+This module exports the main pipeline functions for the Neural Alpha project.
+
+__all__ = ['function1', 'function2', 'function3']  # Replace with actual function names
