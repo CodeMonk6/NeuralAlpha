@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/sourabh-sharma/NeuralAlpha/actions"><img src="https://github.com/sourabh-sharma/NeuralAlpha/workflows/CI/badge.svg" alt="CI Status"/></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg" alt="License: All Rights Reserved"/></a>
   <img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"/>
   <img src="https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/Status-Research-orange.svg" alt="Research"/>
@@ -337,4 +337,4 @@ This repository is for **research and educational purposes only**. Past performa
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+All Rights Reserved (proprietary) — see [LICENSE](LICENSE).
