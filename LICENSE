@@ -1,21 +1,32 @@
-MIT License
+All Rights Reserved
 
-Copyright (c) 2024 Sourabh Sharma
+Copyright (c) 2026 Sourabh Sharma. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository and all of its contents — including code, documentation, data,
+designs, and any other materials (collectively, the "Work") — are proprietary
+and confidential.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+NO LICENSE IS GRANTED. No right or license, express or implied, is granted to
+any person or entity to use, copy, reproduce, compile, run, modify, adapt,
+translate, merge, publish, distribute, sublicense, sell, host, or create
+derivative works from the Work, in whole or in part, by any means, without the
+prior written permission of the copyright holder.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Viewing or forking this repository through the GitHub interface, as permitted by
+GitHub's Terms of Service, is provided solely for reference and evaluation. It
+does NOT grant you any license or right to use the Work for any purpose, and any
+copy you obtain remains subject to this notice and to the copyright holder's
+exclusive rights.
+
+Unauthorized use, reproduction, or distribution of the Work, or any portion of
+it, may result in civil and criminal liability and will be prosecuted to the
+maximum extent permitted by law.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER
+BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+For licensing inquiries, contact the copyright holder.
